@@ -3,6 +3,7 @@ import Header from './header.js';
 import React from 'react';
 import styled from 'styled-components';
 import Wrapper from './wrapper.js';
+import Table from './table.js';
 
 const AppStyled = styled.main`
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
@@ -19,6 +20,7 @@ function App() {
     <AppStyled>
       <Wrapper>
         <Header/>
+        <Table/>
       </Wrapper>
     </AppStyled>
   );
