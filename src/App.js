@@ -4,6 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Wrapper from './wrapper.js';
 import Table from './table.js';
+import Rules from './rules.js';
 
 const AppStyled = styled.main`
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
@@ -13,6 +14,7 @@ const AppStyled = styled.main`
   }
   .app-content{
     min-height: 100vh;
+    width: 100%;
     padding: 2em;
     display: flex;
     box-sizing: border-box;
@@ -28,6 +30,7 @@ function App() {
         <div className="app-content">
           <Header/>
           <Table/>
+          <Rules/>
         </div>
       </Wrapper>
     </AppStyled>
